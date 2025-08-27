@@ -15,7 +15,9 @@ import nixpkgs {
     (import ./overlays/graphql-parser.nix)
     (import ./overlays/resource-pool.nix)
     (import ./overlays/dc-api.nix)
+    (import ./overlays/server-libs.nix)
     (import ./overlays/pg-client-hs.nix)
+    (import ./overlays/graphql-engine.nix)
     (import ./overlays/aeson-ordered.nix)
   ];
 }

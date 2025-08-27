@@ -35,6 +35,7 @@
     {
       packages = {
         graphql-parser = pkgs.haskell.packages.${pkgs.ghcName}.graphql-parser;
+        graphql-engine = pkgs.haskell.packages.${pkgs.ghcName}.graphql-engine;
       };
 
       formatter = pkgs.nixpkgs-fmt;
