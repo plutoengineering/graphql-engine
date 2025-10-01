@@ -4346,7 +4346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"algoliasearch-helper@npm:^3.10.0, algoliasearch-helper@npm:^3.7.4":
+"algoliasearch-helper@npm:^3.10.0":
   version: 3.11.1
   resolution: "algoliasearch-helper@npm:3.11.1"
   dependencies:
@@ -4354,6 +4354,17 @@ __metadata:
   peerDependencies:
     algoliasearch: ">= 3.1 < 6"
   checksum: 207616ca4549e2d06a278357ce478951a37c606f40f5b39b8e2d13bba143023a10814f065cd89629e5f2c121935d61a97d96bfb687ae7a98ef25b63da37fcf70
+  languageName: node
+  linkType: hard
+
+"algoliasearch-helper@npm:^3.11.2":
+  version: 3.26.0
+  resolution: "algoliasearch-helper@npm:3.26.0"
+  dependencies:
+    "@algolia/events": ^4.0.1
+  peerDependencies:
+    algoliasearch: ">= 3.1 < 6"
+  checksum: 78cee5928c1f2b42b80694985bb3aa2fc5119ebedcfc7569c4599db03eeee81e965d53cdd7f5b1ccb05145ed08ae8158f8d71b01cbb70a8e90201d9fe88931ad
   languageName: node
   linkType: hard
 
@@ -6072,7 +6083,7 @@ __metadata:
     "@swc/core": ^1.3.23
     "@tsconfig/docusaurus": ^1.0.6
     algoliasearch: ^4.14.2
-    algoliasearch-helper: ^3.7.4
+    algoliasearch-helper: ^3.11.2
     clsx: ^1.2.1
     cspell: ^6.18.1
     docusaurus-plugin-sass: ^0.2.2
